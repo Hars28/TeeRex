@@ -32,7 +32,7 @@ const Products = () => {
     <>
       <div id={Styles.input_div}>
         <input type="text" value={search} onChange={(e)=>setSearch(e.target.value)} placeholder="Search for Products" />
-        <i className="fa fa-search" onClick={()=>handleSearch(productData)} aria-hidden="true"></i>
+        <i className="fa fa-search" onClick={()=>handleSearch(productData)} aria-hidden="true" style={{cursor:"pointer"}}></i>
       </div>
       <div id={Styles.main_container}>
         <div id={Styles.search_section}>
